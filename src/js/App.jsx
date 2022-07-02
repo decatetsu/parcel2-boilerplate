@@ -1,10 +1,10 @@
-import butt from "../assets/content/babel.jpg";
+import image from "../assets/babel.jpg";
 
 function App() {
     return (
         <div>
             <h1>Hello, my darling!</h1>
-            <img src={butt} alt="butt" width={"400px"}/>
+            <img src={image} alt="butt" width={"400px"}/>
         </div>
     );
 }
